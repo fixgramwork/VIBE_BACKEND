@@ -16,13 +16,6 @@ pip install -r requirements.txt
 ```
 
 ### 2. 서버 실행
-
-```bash
-python main.py
-```
-
-또는
-
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
